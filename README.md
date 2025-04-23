@@ -13,9 +13,10 @@
   <li>Loops</li>
   <li>IO</li>
   <li>Functions</li>
-  <li>DataStructure</li>
+  <li>Patterns</li>
   <li>DateTime</li>
   <li>OOP</li>
   <li>JSON</li>
   <li>FileHandling</li>
+  <li>Exersize</li>
 </ol>
