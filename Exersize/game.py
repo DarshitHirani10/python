@@ -17,4 +17,4 @@ while True:
         print("ypur number was to big. Take a smaller guess..")
 
 
-print("--------Game Over--------")
+print("--------Game Over--------") 
