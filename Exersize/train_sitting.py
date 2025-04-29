@@ -1,9 +1,11 @@
 while True:
-    number= int(input("enter number: "))
-    if 1<= number <= 108:
-        break
-    print("invalid number, please enter number between 1 to 108")
-
+    try:
+        number= int(input("enter number: "))
+        if 1<= number <= 108:
+            break
+        print("invalid number, please enter number between 1 to 108")
+    except ValueError:
+        print("invalid input, please enter a number")
 #--------------------------------------------------------------------------------------
 
 window_li = [1]
