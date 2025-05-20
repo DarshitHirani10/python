@@ -1,3 +1,7 @@
+import time
+
+#--------------------------------------------------------------------------------------
+
 while True:
     try:
         number= int(input("enter number: "))
@@ -6,7 +10,10 @@ while True:
         print("invalid number, please enter number between 1 to 108")
     except ValueError:
         print("invalid input, please enter a number")
+
 #--------------------------------------------------------------------------------------
+
+start_time = time.time()
 
 window_li = [1]
 n = 12
@@ -95,3 +102,6 @@ else:
                 print("Type: Aisle seat")
                 # found = True
                 break
+
+end_time = time.time()
+print("Execution time: {:.6f} seconds".format(end_time - start_time))
